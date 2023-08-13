@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "web app",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
