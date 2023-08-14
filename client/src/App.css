@@ -12,13 +12,14 @@
 
 .img {
   width: 30%;
+  opacity: 0.;
 }
 
 .wrapper {
-  width: 600px;
-  height: 400px;
+  width: 500px;
+  height: 350px;
   margin: auto;
-  background: #fff;
+  background: url('https://i5.walmartimages.com/asr/5784a954-37e1-4ea4-b1e4-8e0c260841dd.038165286006af2b75410cbc801ec496.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff') no-repeat center center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,9 +27,15 @@
 
 h1 {
   font-size: 40px;
+  font-weight: 700;
+  color: #fb0362;
+  margin-top: 60px;
+}
+
+h4 {
   font-weight: 600;
-  color: #445A6F;
-  margin: 40px 0;
+  color: #f7f3f7;
+  margin-top: 10px;
 }
 
 input {
@@ -45,7 +52,7 @@ button {
   width: 150px;
   height: 40px;
   border-radius: 5px;
-  background-color: #445A6F;
+  background-color: #e32918;
   border: 1px solid #445A6F;
   color: #fff;
   font-size: 20px;

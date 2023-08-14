@@ -13,7 +13,6 @@ export const uploadImage = async (request, response) => {
         const file = await File.create(fileObj);
         response.status(200).json({ path: `http://localhost:${process.env.PORT}/file/${file._id}`});
     } catch (error) {
-        console.error(error.message);
         response.status(500).json({ error: error.message });
     }
 }
@@ -28,7 +27,6 @@ export const getImage = async (request, response) => {
 
         response.download(file.path, file.name);
     } catch (error) {
-        console.error(error.message);
         response.status(500).json({ msg: error.message });
     }
 }
