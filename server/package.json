@@ -6,9 +6,10 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "sushma",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
